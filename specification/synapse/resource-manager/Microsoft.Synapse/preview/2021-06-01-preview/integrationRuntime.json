@@ -2271,6 +2271,18 @@
             "description": "The newer versions",
             "type": "string"
           }
+        },
+        "osType": {
+          "description": "OS Type, 1-Windows; 2-Linux.",
+          "type": "integer",
+          "format": "int32",
+          "readOnly": true
+        },
+        "targetFramework": {
+          "description": "TargetFramework type, 1- Net472; ",
+          "type": "integer",
+          "format": "int32",
+          "readOnly": true
         }
       }
     },
